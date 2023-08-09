@@ -15,8 +15,15 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+    it('should create account', () => {
+      // {
+      //   firstName: string,
+      //   lastName: string
+      //   _id: _id
+      // }
+
+
+      expect(appController.createAccount()).toBe('account created.');
     });
   });
 });
